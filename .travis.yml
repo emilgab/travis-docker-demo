@@ -6,8 +6,7 @@ services:
   - docker
   
 script:
-  - docker pull hello-world
-  - docker run -d hello-world
+  - docker build Dockerimage
   - docker ps
   
 after_script:
