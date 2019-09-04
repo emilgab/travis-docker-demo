@@ -6,7 +6,7 @@ services:
   - docker
   
 script:
-  - docker build Dockerimage
+  - docker build ./Dockerimage
   - docker ps
   
 after_script:
